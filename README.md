@@ -8,7 +8,6 @@ QAC refines image astrometry against Gaia DR3, Pan-STARRS1 DR2, 2MASS, or a loca
 ## Install and run
 
 ```bash
-conda activate co310
 python -m pip install -r requirements.txt
 python qac.py image.fits -c 09:59:40.64 +00:24:21.454 -s 0.23
 ```
