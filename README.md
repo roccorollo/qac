@@ -1,4 +1,7 @@
-# QAC v0.5.10 — Quick Astrometry for FITS Images
+# QAC v0.5.11 — Quick Astrometry for FITS Images
+
+Author: Andrea Rossi, with the assistance of ChatGPT.  
+License: [MIT](LICENSE).
 
 QAC refines image astrometry against Gaia DR3, Pan-STARRS1 DR2, 2MASS, or a local RA/Dec catalogue. It writes a fitted TAN WCS, optionally with SIP distortion. The original pixels are retained unless `-r` resamples them onto an undistorted TAN grid. Python 3.10+ is required.
 

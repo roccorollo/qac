@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""QAC: quick, catalogue-based astrometry for FITS images and image stacks."""
+# SPDX-License-Identifier: MIT
+"""QAC: quick, catalogue-based astrometry for FITS images and image stacks.
+
+Author: Andrea Rossi, with the assistance of ChatGPT.
+"""
 from __future__ import annotations
 
 import argparse
@@ -30,7 +34,7 @@ from erfa import ErfaWarning
 from photutils.background import Background2D, MedianBackground
 from photutils.detection import DAOStarFinder
 
-VERSION = "0.5.10"
+VERSION = "0.5.11"
 MIN_MATCHES = 8
 DEFAULT_BRIGHT_MAG = 12.0
 GAIA_DEFAULT_FAINT_MAG = 20.0
